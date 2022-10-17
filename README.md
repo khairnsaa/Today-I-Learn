@@ -6,5 +6,5 @@ today is the first day of bootcamp programme. in the first session of this bootc
 
 it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
 
-![image](https://user-images.githubusercontent.com/53510222/196227789-eebfe8d8-9a49-46d0-bf86-dea1ff569a1d.png)
+![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
 team 2 photo!
