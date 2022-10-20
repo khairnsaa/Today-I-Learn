@@ -1,10 +1,11 @@
-# Today-I-Learn
+# Today-I-Learn Day 4
 
-Today i learn in LearningX - Sparta Coding Club Bootcamp
+Today i learn in LearningX - Sparta Coding Club Bootcamp | fullstack developer
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+today is the last day of the first week in this bootcamp. i've learn few many things like debugging in python. so in my friends laptop there's a problem when adding a budget list, the budget will be added twice, and all of us didn't know what the problem is. and then our mentor show up and help us to find where the problem is. the problem is the function to adding the budget to the list is called twice, so it'll be added twice too
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+so far this bootcamp feels fun. i don't know what my teammates opinion about this. but i think me and my teammate is getting closer with working project together. and it feels nice to make new friend
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+![image](https://user-images.githubusercontent.com/53510222/197019603-975f584c-13e7-4f20-b47c-eb7bcfda6603.png)
+
+team 2 working together finishing our first project together!
