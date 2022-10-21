@@ -33,6 +33,11 @@ Undefined: It means the value does not exist in the compiler. It is the global o
 ### Primitive type data and Reference type data.
 Whenever you create a variable in JavaScript, that variable can store one of two types of data, a primitive value or a reference value. If the value is a number, string, boolean, undefined, null, or symbol, it's a primitive value. If it's anything else (i.e. typeof object), it's a reference value.
 
+### shallow copy vs deep copy
+deep copy: A deep copying means that value of the new variable is disconnected from the original variable while a shallow copy means that some values are still connected to the original variable.
+
+shallow copy: When a reference variable is copied into a new reference variable using the assignment operator, a shallow copy of the referenced object is created. In simple words, a reference variable mainly stores the address of the object it refers to. When a new reference variable is assigned the value of the old reference variable, the address stored in the old reference variable is copied into the new one. This means both the old and new reference variable point to the same object in memory. As a result if the state of the object changes through any of the reference variables it is reflected for both.
+
 ### How to make Immutable Object?
 If you wish for an object to not be able to be modified you can use Object.freeze(). 
 Object.freeze() method freezes an object: that is, prevents new properties from being added to it; prevents existing properties from being removed; and prevents existing properties, or their enumerability, configurability, or writability, from being changed.
