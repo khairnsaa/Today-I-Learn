@@ -2,9 +2,12 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+##SPA VS MPA
+The difference between SPA and MPA is that MPAs secure each page to its core. it takes more timee and effort to maintain the security, hence, it will take more time to loading the page.
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+SPAs secure endpoints faster, but the security level is low. SPAs generally rely in javascripts. This makes them vulnerable to being attacked by cybercriminals because of the data not being compiled for security. SPAs are considered more “modern” and attuned to today’s agile development needs.
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+However, this doesn’t mean that MPAs don’t work out. Amazon is an MPA and this effectively means that whenever you request new content, the page has to reload all over again. this is considered conventional architecture, but i’ts still highly valuable and is used with great results.
+
+MPAs are best suited for complex websites that do not require a continuation of approach. For e.g. on amazon you don’t require uour page to stay the same when you want to view a product or category. so if you are thinkong of building let’s say a very large ecommerce site, then you sould opt for an MPA architecture.
+
