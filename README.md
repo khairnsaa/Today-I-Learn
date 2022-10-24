@@ -11,3 +11,12 @@ However, this doesn’t mean that MPAs don’t work out. Amazon is an MPA and th
 
 MPAs are best suited for complex websites that do not require a continuation of approach. For e.g. on amazon you don’t require uour page to stay the same when you want to view a product or category. so if you are thinkong of building let’s say a very large ecommerce site, then you sould opt for an MPA architecture.
 
+## Array vs Array-Like Object
+
+An object is a non-primitive data type in javascript that we use to store data in a key-value format. The majority of objects in javascript are derived from the Object prototype. There are various object forms in javascript, depending on the acts of accessing and manipulating the properties, expressed as internal methods; As per ECMAScript documentation, an ordinary object requires specific criteria of the default action for the primary internal methods while an exotic object might not have a default action for a few of its internal methods. object is an array like if it satisfies the criteria: index should start at 0, index should be incremented in the same way as that of an array. should have a length property and return a non-negative integer, and it’s value should be equal to the number of integer index keys
+
+Array is a list of numerically indexed values in the order of their entry; In JavaScript, it’s an exotic object which maintains array-index property keys called an element and a non-configurable property called length, and each array is derived from this Array object inheriting all of its properties like push, pop, slice, map, shift, and many more.
+
+the difference between array and array-like object is:
+1. the index range of an array-like object is 0≤I≤2^53–1, whereas the index range of an array is 0≤ I <2^32–1
+2. an array-like object is not derived from the array.prototype object. therefore, we cannot perform traversing and remodeling operations like push, pop, foreach and many more.
