@@ -2,7 +2,7 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-##SPA VS MPA
+## SPA VS MPA
 The difference between SPA and MPA is that MPAs secure each page to its core. it takes more timee and effort to maintain the security, hence, it will take more time to loading the page.
 
 SPAs secure endpoints faster, but the security level is low. SPAs generally rely in javascripts. This makes them vulnerable to being attacked by cybercriminals because of the data not being compiled for security. SPAs are considered more “modern” and attuned to today’s agile development needs.
