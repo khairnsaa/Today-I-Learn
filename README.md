@@ -2,9 +2,9 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+## Routing in AWS S3 Bucket
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
-
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+When you configure an Amazon S3 bucket for website hosting, you must give the bucket the same name as the record that you want to use to route traffic to the bucket. For example, if you want to route traffic for spartacodingclub.com/ to an S3 bucket that is configured for website hosting, the name of the bucket must be spartacodingclub.com/. 
+If you want to route traffic to an S3 bucket that is configured for website hosting but the name of the bucket doesn't appear in the Alias Target list in the Amazon Route 53 console, or if you're trying to create an alias record programmatically and you're getting an InvalidInput error from the Route 53 API, one of the AWS SDKs, the AWS CLI, or AWS Tools for Windows PowerShell, check the following:
+• The name of the bucket exactly matches the name of the record
+• The S3 bucket is correctly configured for website hosting.
