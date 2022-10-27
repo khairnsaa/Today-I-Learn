@@ -2,9 +2,25 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+## React Immutability
+Immutability means that something cannot change its value or state. You can find immutable types in JavaScript itself. The String value type is a good example.
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+If you define a string like this:
+```
+var str = 'abc';
+```
+You cannot change a character of the string directly.
+
+In JavaScript, strings are not arrays so you can do something like this:
+```
+str[2] = 'd';
+```
+
+Doing something like:
+```
+str = 'abd';
+```
+Assigns a different string to str.
+
+So, assigning a new string generates an error (although this doesn’t relate to immutability). If you want to modify the String value, you have to use manipulation methods like replace, toUpperCase or trim. all these methods return new strings, they don’t modify the original one.
