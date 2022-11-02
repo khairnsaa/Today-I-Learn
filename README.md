@@ -2,9 +2,11 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+today i finished this week personal task. creating todo list with redux. it's not my first time using redux, i've used redux before, but usually i used redux with redux toolkit. and in this project i can't use redux toolkit. it's a bit confusing for me, because there's a few different things when you're using the toolkit or not. i know my code is bit cutlery, still improving with DRY principle. by the way if you want to see my todo list project you can see it [here](https://todo-list-redux-phi.vercel.app)
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+the website view is little bit ugly, because i used styled-component. it's hard for me to use styled-component because you're writing css in js file, there's no snippet in there... to sum it up... it's hard using styled-component for me. but i try my best
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+this is the view of my project
+
+![image](https://user-images.githubusercontent.com/53510222/199532921-616b3246-9c59-466d-aeea-7d1993729d97.png)
+
