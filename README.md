@@ -34,3 +34,11 @@ const subtract = function(a, b) {
     return a - b;
 };
 ```
+
+besides learning fundamental javascript in zoom meeting, theres also a team task for this week. for today progress, my team has created a wireframe for the project that we will create for our team assignment. we still haven't decided the name for our project. but basically we will create a simple website that can post something and write a comment in that post (just like twitter but much simpler)
+
+here is our wireframe for this week team assignment
+
+![image](https://user-images.githubusercontent.com/53510222/200036178-9d585ee6-2b36-45ff-a839-76caf18bad80.png)
+
+![image](https://user-images.githubusercontent.com/53510222/200036241-da32fcb6-aba9-4c73-863e-109c6f510b0e.png)
