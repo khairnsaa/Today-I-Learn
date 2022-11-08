@@ -2,9 +2,16 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+## React Class Component vs Functional Component
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+### Class Component
+1. class component requires you to extend from React.
+2. It must have the render() method returning JSX
+3. Also known as Stateful components because they implement logic and state.
+4. React lifecycle methods can be used inside class components (for example, componentDidMount).
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+### Functional Component
+1. A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element
+2. There is no render method used in functional components.
+3. Also known as Stateless components as they simply accept data and display them in some form, that they are mainly responsible for rendering UI.
+4. React lifecycle methods (for example, componentDidMount) cannot be used in functional components.
