@@ -2,9 +2,17 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+## React Hooks
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects.  With React Hooks, we can isolate stateful logic and side-effects from a functional component. Hooks are JavaScript functions that manage the state's behaviour and side effects by isolating them from a component.
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+React provides a bunch of standard in-built hooks:
+1. useState: To manage states. Returns a stateful value and an updater function to update it.
+2. useEffect: To manage side-effects like API calls, subscriptions, timers, mutations, and more.
+3. useContext: To return the current value for a context.
+4. useReducer: A useState alternative to help with complex state management.
+5. useCallback: It returns a memorized version of a callback to help a child component not re-render unnecessarily.
+6. useMemo: It returns a memoized value that helps in performance optimizations.
+7. useRef: It returns a ref object with a .current property. The ref object is mutable. It is mainly used to access a child component imperatively.
+
+lease notice that each of these hook names start with use. it's a standard practice to identify a hook in the React codebase quickly. We can also create custom hooks for our unique use cases like data fetching, logging to disk, timers, and many more.
