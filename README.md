@@ -2,9 +2,8 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+this week team task is cloning an application. my team planned to clone twitter, we won't create all of the feature that twitter has because some of their features is hard to implement in short amount of time. so some feature we implement in this project is, adding new tweet, delete tweet, reply other people tweet, like the tweet and (maybe) add a retweet feature too (if there's still time to implement it). note that all of the tweet that created in our clone app is public tweet, so, even though you not following people, but their tweet will appear on you timeline. also, we won't create a follow feature in this clone app, because we think it's a bit hard. But, if we have some plenty time to improve our app, we might add that feature
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+this is the user interface for our twitter clone project!
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+![image](https://user-images.githubusercontent.com/53510222/201714442-8321ad89-59fd-4a05-bcd5-63a8a2f50305.png)
