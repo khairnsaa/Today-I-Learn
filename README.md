@@ -2,9 +2,14 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+first day of week 6!
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+first of all what we did today is a recap redux session with our mentor justin, we create a CRUD app using redux and redux thunk and we fetching api using axios from https://gorest.co.in/ to be able fetching api from there, we need to create an account first and then we get a token API, every account will have a different token API. and also every account can only get 90 request per day.
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+![image](https://user-images.githubusercontent.com/53510222/202731135-675b7932-c9d8-445b-acc4-3fcdee653851.png)
+
+there's a few feature we create for this recap project, there are read the user list, read the detail of each user, update user, and create user.
+
+after that, we move on to zep to discuss our MBTI test. based on the https://www.16personalities.com my personality is an adventurer OR ISFP-T (yea i'm an introvert)
+
+and that's all for today's agenda
