@@ -14,3 +14,63 @@ A static web server, or stack, consists of a computer (hardware) with an HTTP se
 A dynamic web server consists of a static web server plus extra software, most commonly an application server and a database. We call it "dynamic" because the application server updates the hosted files before sending content to your browser via the HTTP server.
 
 For example, to produce the final webpages you see in the browser, the application server might fill an HTML template with content from a database. Sites like MDN or Wikipedia have thousands of webpages. Typically, these kinds of sites are composed of only a few HTML templates and a giant database, rather than thousands of static HTML documents. This setup makes it easier to maintain and deliver the content.
+
+## How To Create Schema With Mongoose Library?
+first thing to do if we want to write a schema is importing the mongoose library first
+
+`const mongoose = require('mongoose')`
+
+after that let’s create a variable to store the schema and fill that variable with `mongoose.Schema()` function
+
+`const postSchema = new mongoose.Schema()`
+
+note: make sure you write the mongoose schema function with the capital letter S
+
+inside mongoose schema function, let’s create an object for post attribute (title and writerName)
+
+```jsx
+const commentsSchema = new mongoose.Schema({
+    title: {},
+    name: {}
+})
+```
+
+after that inside the title you need to create an object again to specify type of title attribute (i.e string or number)
+
+```jsx
+const commentsSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    comment: {
+        type: String,
+        required: true
+    }
+})
+```
+
+and the last thing is you need to export this module by writing this line of code
+
+`module.exports = mongoose.model("Comment", commentsSchema)`
+
+as you can see inside mongoose.model() we see 2 parameters, the first parameter is what you want a new collection you see on your mongoDB, and the second parameter is the schema you just created.
+
+```jsx
+const mongoose = require('mongoose')
+
+const commentsSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    comment: {
+        type: String,
+        required: true
+    }
+})
+
+module.exports = mongoose.model("Comment", commentsSchema)
+```
+
+and code above is the final result of our postSchema
