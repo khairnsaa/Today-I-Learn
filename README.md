@@ -2,9 +2,18 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+nothing special happened today. just finishing team task and personal task. so far for the team task i've create 1 question in DIY section, and for the personal task, i have finished creating the restful api
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
-
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+ some new things i've learn today
+ 
+ ## What is a Package Manager?
+ A package manager keeps track of what software is installed on your computer, and allows you to easily install new software, upgrade software to newer versions, or remove software that you previously installed. As the name suggests, package managers deal with packages: collections of files that are bundled together and can be installed and removed as a group.
+ 
+ A JavaScript package manager most notably used in conjunction with Node.js, although it can be used independently as well. It gives you exceptional control over your project’s dependencies and provides a great way to contribute to the open-source world. 
+ 
+ You can get started by simply running `npm install <package name>` and injecting it into your JavaScript file.
+ 
+ If you want to install for the specific version you can run this command `npm install <package name>@1.2.3.`
+ 
+ ## Why do we need `package.json?`
+ Your project's package.json is the central place to configure and describe how to interact with and run your application. It is used by the npm CLI (and yarn) to identify your project and understand how to handle the project's dependencies. It's the package.json file that enables npm to start your project, run scripts, install dependencies, publish to the NPM registry, and many other useful tasks. The npm CLI is also the best way to manage your package.json because it helps generate and update your package.json file throughout a project's life.
