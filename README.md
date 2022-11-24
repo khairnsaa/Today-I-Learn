@@ -2,9 +2,20 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+last day of week 6!
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+i just finished my personal task and mini test. to checkout what have i done for my personal task, you can visit this link http://46.137.235.255:3000/api/post/
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+by the way for the personal task i have succeed to deploy my project to aws ec2. here's a little documentation to access the api that i made
+
+**GET** `http://46.137.235.255:3000/api/post/` get all of the post
+**POST** `http://46.137.235.255:3000/api/post/` Create new post (requiring `name` and `post` in request body)
+**PUT** `http://46.137.235.255:3000/api/post/:postId` edit post (requiring `name` and `post` in request body)
+**DELETE** `http://46.137.235.255:3000/api/post/:postId` delete post
+
+**GET** `http://46.137.235.255:3000/api/comments/:postId` get all of the comments in specific post
+**POST** `http://46.137.235.255:3000/api/comments/:postId Create new comment for specific post (requiring `name` and `comment` in request body)
+**PUT** `http://46.137.235.255:3000/api/comments/:commentId` edit comment (requiring `name` and `comment` in request body)
+**DELETE** `http://46.137.235.255:3000/api/comments/:commentId` delete comment
+
+![image](https://user-images.githubusercontent.com/53510222/203827050-bc602f6f-deb3-48f1-a3b4-b31735f1fe22.png)
