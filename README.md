@@ -2,9 +2,32 @@
 
 Today i learn in LearningX - Sparta Coding Club Bootcamp
 
-today is the first day of bootcamp programme. in the first session of this bootcamp i met many people from different school. at first we introduce ourself and have a little chit chat like what our common like, all of my teammate is like chicken Noodle or in my country known as mie ayam. after our little chit chat, we discuss our first team project for this bootcamp. we decided to create a monthly budget tracker. we name our project BudgetIn. next we will do a short presentation in front off all participant in the bootcamp programme.
+today is the first day of week 7. this week we're gonna learn about node js mastery. we're gonna make a rest API again, but the different is in this week we also will create the api for sign up and sign in with JWT.
 
-it's been a fun journey for me joining this bootcamp. my goal is i hope i can get more new friends, new connection, and ofcourse new skills
+today also we watch the video lecture. but due to the internet problem my team cannot watch it together. instead we watched it alone. after watching  video lecture. we need to submit 2 question to play kahoot. our team question is
 
-![image](https://user-images.githubusercontent.com/53510222/196228064-a68741ec-9c27-4846-b912-470cb00917c0.png)
-team 2 photo!
+## Q1 Which object in Javascript that doesn’t have a prototype?
+a. Base object
+b. All of object have prototype
+c. None of object in JavaScript
+d. None of the above
+
+answer: A
+All objects have prototypes, except for the base object. The base object is Object.prototype, it is a property of the Object constructor and it is also the end of a prototype chain.
+
+## Q2 How to handle error in JavaScript?
+A. Try / error
+B. Try / catch
+C. Try / throw
+D. Try / finally
+
+Answer: B
+When trying to change the names in users to uppercase using String.toUpperCase(), an error occurs if data other than a string is entered.
+
+To deal with this unexpected error, you can wrap the entire code in a try … catch statement.
+
+Even if an error occurs, the program can log the error without stopping.
+
+after that we played kahoot, but sadly theres a trouble with the kahoot question. there's only 1 question available in there. and we ended play kahoot and write TIL instead.
+
+So... that's all for today
