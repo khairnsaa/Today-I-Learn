@@ -28,6 +28,8 @@ To deal with this unexpected error, you can wrap the entire code in a try … ca
 
 Even if an error occurs, the program can log the error without stopping.
 
-after that we played kahoot, but sadly theres a trouble with the kahoot question. there's only 1 question available in there. and we ended play kahoot and write TIL instead.
+after that we played kahoot, but sadly our team not winning. at least we're in runner up place
+![image](https://user-images.githubusercontent.com/53510222/204025752-022ede80-d884-491e-9902-4f50c8f7e5ed.png)
+
 
 So... that's all for today
